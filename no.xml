@@ -1,4 +1,7 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="23" x="81" y="20"></block>
-  <block type="oled_setcursor" id="32" inline="true" x="8" y="119"></block>
+  <block type="movement_forward" id="23" x="81" y="20">
+    <next>
+      <block type="oled_setcursor" id="32" inline="true"></block>
+    </next>
+  </block>
 </xml>
