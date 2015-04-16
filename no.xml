@@ -16,7 +16,7 @@
             </value>
             <next>
               <block type="oled_drawtext" id="79">
-                <field name="TEXT">NA!</field>
+                <field name="TEXT">NA man nemiram!</field>
               </block>
             </next>
           </block>
