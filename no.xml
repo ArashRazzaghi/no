@@ -1,7 +1,18 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="23" x="81" y="20">
+  <block type="movement_forward" id="23" x="-123" y="26">
     <next>
-      <block type="oled_setcursor" id="32" inline="true"></block>
+      <block type="oled_setcursor" id="32" inline="true">
+        <value name="STARTX">
+          <block type="math_number" id="68">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <value name="STARTY">
+          <block type="math_number" id="69">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+      </block>
     </next>
   </block>
 </xml>
